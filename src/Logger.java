@@ -9,7 +9,7 @@ public class Logger {
     public Logger() {
         try {
             FileWriter fw = new FileWriter(fileName);
-            PrintWriter pw = new PrintWriter(fw, true);
+            printWriter = new PrintWriter(fw, true);
         } catch (IOException e) {
             System.out.println("Catching IO Exception");
             throw new RuntimeException(e);
@@ -21,7 +21,7 @@ public class Logger {
     }
 
     public void logDeposit(String account, double amount) {
-        System.out.println("Deposit {" + account + "}: " + amount);
+//        System.out.println("Deposit {" + account + "}: " + amount);
         printWriter.println("Deposit {" + account + "}: " + amount);
     }
 
