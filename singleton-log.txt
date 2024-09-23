@@ -1,0 +1,5 @@
+Deposit {Fazeel}: 100.0
+Withdraw {Ayesha}: 80.0
+Transfer 40.0 Fazeel to Usmani
+Deposit {Rameez}: 85.0
+Withdraw {Sameer}: 30.0
